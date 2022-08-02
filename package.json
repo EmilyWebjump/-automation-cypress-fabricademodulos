@@ -1,0 +1,22 @@
+{
+  "name": "automation-test-mav-cypress",
+  "version": "1.0.0",
+  "description": "Automação do projeto MAV me cypress",
+  "author": "Nathan / Emily",
+  "scripts": {
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix",
+    "cy:open": "cypress open",
+    "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "cypress-mailosaur": "^2.10.0",
+    "eslint": "^8.19.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "faker-br": "^0.4.1",
+    "leite": "^0.2.0"
+  }
+}
